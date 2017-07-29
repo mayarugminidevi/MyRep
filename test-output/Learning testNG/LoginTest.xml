@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="maya-home" name="tesstcases.LoginTest" tests="3" failures="0" timestamp="26 Jul 2017 18:16:54 GMT" time="1.006" errors="0">
+  <testcase name="doLoginTest" time="0.0" classname="tesstcases.LoginTest"/>
+  <testcase name="doLoginTest" time="0.0" classname="tesstcases.LoginTest"/>
+  <testcase name="doLoginTest" time="0.001" classname="tesstcases.LoginTest"/>
+</testsuite>

@@ -1,0 +1,128 @@
+<testng-results>
+  <reporter-output>
+  </reporter-output>
+  <suite name="Learning testNG" duration-ms="1098" started-at="2017-07-26T11:16:53Z" finished-at="2017-07-26T11:16:54Z">
+    <groups>
+    </groups>
+    <test name="ApplicaionTest" duration-ms="8" started-at="2017-07-26T11:16:53Z" finished-at="2017-07-26T11:16:53Z">
+      <class name="tesstcases.ApplicaionTest">
+        <test-method status="PASS" signature="beforeTest()" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-07-26T11:16:53Z" finished-at="2017-07-26T11:16:53Z">
+        </test-method>
+        <test-method status="PASS" signature="doLogin()" name="doLogin" duration-ms="0" started-at="2017-07-26T11:16:53Z" finished-at="2017-07-26T11:16:53Z">
+        </test-method>
+        <test-method status="PASS" signature="beforeMethod()" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-07-26T11:16:53Z" finished-at="2017-07-26T11:16:53Z">
+        </test-method>
+        <test-method status="PASS" signature="afterMethod()" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-07-26T11:16:53Z" finished-at="2017-07-26T11:16:53Z">
+        </test-method>
+        <test-method status="PASS" signature="doPasswordChange()" name="doPasswordChange" duration-ms="0" started-at="2017-07-26T11:16:53Z" depends-on-methods="tesstcases.ApplicaionTest.doLogin" finished-at="2017-07-26T11:16:53Z">
+        </test-method>
+        <test-method status="PASS" signature="beforeMethod()" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-07-26T11:16:53Z" finished-at="2017-07-26T11:16:53Z">
+        </test-method>
+        <test-method status="PASS" signature="afterMethod()" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-07-26T11:16:53Z" finished-at="2017-07-26T11:16:53Z">
+        </test-method>
+        <test-method status="PASS" signature="logOut()" name="logOut" duration-ms="0" started-at="2017-07-26T11:16:53Z" depends-on-methods="tesstcases.ApplicaionTest.doLogin" finished-at="2017-07-26T11:16:53Z">
+        </test-method>
+        <test-method status="PASS" signature="beforeMethod()" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-07-26T11:16:53Z" finished-at="2017-07-26T11:16:53Z">
+        </test-method>
+        <test-method status="PASS" signature="AfterTest()" name="AfterTest" is-config="true" duration-ms="0" started-at="2017-07-26T11:16:53Z" finished-at="2017-07-26T11:16:53Z">
+        </test-method>
+        <test-method status="PASS" signature="afterMethod()" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-07-26T11:16:53Z" finished-at="2017-07-26T11:16:53Z">
+        </test-method>
+      </class>
+    </test>
+    <test name="LoginTest" duration-ms="1006" started-at="2017-07-26T11:16:53Z" finished-at="2017-07-26T11:16:54Z">
+      <class name="tesstcases.LoginTest">
+        <test-method status="PASS" signature="afterMethod()" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-07-26T11:16:53Z" finished-at="2017-07-26T11:16:53Z">
+        </test-method>
+        <test-method status="PASS" signature="doLoginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)" name="doLoginTest" duration-ms="0" started-at="2017-07-26T11:16:53Z" finished-at="2017-07-26T11:16:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[U1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mozilla]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="doLoginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)" name="doLoginTest" duration-ms="0" started-at="2017-07-26T11:16:53Z" finished-at="2017-07-26T11:16:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[U3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fail]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="doLoginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)" name="doLoginTest" duration-ms="1" started-at="2017-07-26T11:16:53Z" finished-at="2017-07-26T11:16:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[U2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="afterMethod()" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-07-26T11:16:53Z" finished-at="2017-07-26T11:16:53Z">
+        </test-method>
+        <test-method status="PASS" signature="afterMethod()" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-07-26T11:16:53Z" finished-at="2017-07-26T11:16:53Z">
+        </test-method>
+      </class>
+    </test>
+    <test name="RegTest" duration-ms="5" started-at="2017-07-26T11:16:54Z" finished-at="2017-07-26T11:16:54Z">
+      <class name="tesstcases.ApplicaionTest">
+        <test-method status="PASS" signature="beforeSuite()" name="beforeSuite" is-config="true" duration-ms="8" started-at="2017-07-26T11:16:53Z" finished-at="2017-07-26T11:16:53Z">
+        </test-method>
+        <test-method status="PASS" signature="afterSuite()" name="afterSuite" is-config="true" duration-ms="1" started-at="2017-07-26T11:16:54Z" finished-at="2017-07-26T11:16:54Z">
+        </test-method>
+      </class>
+      <class name="tesstcases.RegTest">
+        <test-method status="PASS" signature="doRegisterTest()" name="doRegisterTest" duration-ms="1" started-at="2017-07-26T11:16:54Z" finished-at="2017-07-26T11:16:54Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
